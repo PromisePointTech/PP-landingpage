@@ -147,7 +147,7 @@ export default function HomePage() {
               <a href={site.voiceLineHref} className="font-semibold whitespace-nowrap text-white underline decoration-gold/60 underline-offset-4 transition-colors hover:text-gold">
                 {site.voiceLine}
               </a>{" "}
-              and speaks to an assistant in Yoruba, Hausa or English. Both routes reach the same verified record and the
+              and speaks to an assistant in Yoruba, Hausa, Igbo or English. Both routes reach the same verified record and the
               same account.
             </p>
             <ul className="max-w-[520px]">

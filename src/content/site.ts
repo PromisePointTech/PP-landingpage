@@ -108,7 +108,7 @@ export const heroStats = [
   { value: "2,013", label: "Farmers registered" },
   { value: "*347*319#", label: "Works on any phone" },
   { value: "FSSC 6.0V", label: "Certified processing" },
-  { value: "3", label: "Languages supported" },
+  { value: "4", label: "Languages supported" },
 ];
 
 export const ticker = [
@@ -116,7 +116,7 @@ export const ticker = [
   "Cassava starch",
   "Ikole, Ekiti State",
   "FSSC 6.0V certified",
-  "Yoruba · Hausa · English",
+  "Yoruba · Hausa · Igbo · English",
   "AI voice: +234 201 700 1183",
   "Paid the same day",
   "No app. No data.",
@@ -446,7 +446,7 @@ export const legalDocs: LegalDoc[] = [
           "To register you, verify who you are and create an account you can reach by phone.",
           "To pay you for produce and to keep an auditable record of what was delivered and paid.",
           "To assess eligibility for savings, inputs or credit offered with our financial partners, where you ask for it.",
-          "To improve the USSD menu and the voice assistant, including in Yoruba, Hausa and English.",
+          "To improve the USSD menu and the voice assistant, including in Yoruba, Hausa, Igbo and English.",
           "To meet reporting, tax, food safety and anti-money-laundering obligations.",
         ],
       ),
@@ -616,7 +616,7 @@ export const legalDocs: LegalDoc[] = [
         "How to raise a complaint",
         ["Use whichever route is easiest for you. All four reach the same log."],
         [
-          "Call the hotline on 07020479821 and speak in Yoruba, Hausa or English.",
+          "Call the hotline on 07020479821 and speak in Yoruba, Hausa, Igbo or English.",
           "Dial *347*319# and choose the support option to leave a complaint against a transaction.",
           "Tell any field agent or aggregator, who must log it on your behalf and give you the reference.",
           "Write to info@promisepointgtnl.com, or come to the office at KM 3, Itapaji-Iyemero Road, Ikole.",

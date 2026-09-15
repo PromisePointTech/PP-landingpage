@@ -89,7 +89,7 @@ export default function AgriFintechPage() {
                 <a href={site.voiceLineHref} className="font-semibold whitespace-nowrap text-leaf underline decoration-leaf/30 underline-offset-4 hover:text-leaf-deep">
                   {site.voiceLine}
                 </a>{" "}
-                and speak in Yoruba, Hausa or English.
+                and speak in Yoruba, Hausa, Igbo or English.
               </p>
               <p className="mt-3 text-[13px] text-stone">
                 We do not charge for the menu itself; your network may charge for the session.
