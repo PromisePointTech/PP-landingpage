@@ -157,7 +157,7 @@ export const channels = [
   },
   {
     title: "AI voice — +234 201 700 1183",
-    body: "A spoken assistant in Yoruba, Hausa and English for farmers who cannot read a menu, escalating to a human when it cannot help.",
+    body: "A spoken assistant in Yoruba, Hausa, Igbo and English for farmers who cannot read a menu, escalating to a human when it cannot help.",
   },
   {
     title: "Field agents",
