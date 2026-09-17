@@ -370,6 +370,7 @@ export const partnerLogos: PartnerLogo[] = [
   { name: "National Agricultural Land Development Authority", src: "/images/partners/nalda.png" },
   { name: "Government of Ekiti State, Nigeria", src: "/images/partners/ekiti-state.jpg" },
   { name: "Nigeria Sovereign Investment Authority", src: "/images/partners/nsia.webp" },
+  { name: "Mastercard Foundation", src: "/images/partners/mastercard-foundation.svg" },
   { name: "Nestlé", src: "/images/partners/nestle.svg" },
   { name: "Cascador", src: "/images/partners/cascador.png" },
 ];

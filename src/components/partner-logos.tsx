@@ -21,16 +21,20 @@ export function PartnerLogos() {
         </p>
       </Reveal>
       <h3 className="sr-only">Our partners</h3>
-      <RevealGroup className="grid grid-cols-2 gap-[18px] sm:grid-cols-3 lg:grid-cols-6">
+      {/* Flex rather than grid so an odd count centres its last row instead of leaving a gap. */}
+      <RevealGroup className="flex flex-wrap justify-center gap-[18px]">
         {partnerLogos.map((partner) => (
-          <RevealItem key={partner.name} className="h-full">
-            <div className="grid h-full min-h-[150px] place-items-center rounded-[26px] border border-sand-soft bg-white p-7 transition duration-300 ease-out-soft hover:-translate-y-1.5 hover:shadow-[0_26px_48px_rgba(20,38,26,0.1)] sm:min-h-[172px]">
+          <RevealItem
+            key={partner.name}
+            className="basis-[calc((100%_-_18px)/2)] sm:basis-[calc((100%_-_36px)/3)] lg:basis-[calc((100%_-_108px)/7)]"
+          >
+            <div className="grid h-full min-h-[150px] place-items-center rounded-[26px] border border-sand-soft bg-white p-6 transition duration-300 ease-out-soft hover:-translate-y-1.5 hover:shadow-[0_26px_48px_rgba(20,38,26,0.1)] sm:min-h-[172px] sm:p-7 lg:p-5">
               <div className="relative h-[70px] w-full sm:h-[84px]">
                 <Image
                   src={partner.src}
                   alt={partner.name}
                   fill
-                  sizes="(min-width: 1024px) 200px, (min-width: 640px) 28vw, 42vw"
+                  sizes="(min-width: 1024px) 180px, (min-width: 640px) 28vw, 42vw"
                   /* The optimizer rejects SVG unless dangerouslyAllowSVG is set; serve that one as-is. */
                   unoptimized={partner.src.endsWith(".svg")}
                   className="object-contain object-center"
