@@ -362,6 +362,18 @@ export const partners = [
   { title: "Government and agencies", body: "Programme delivery on infrastructure that already reaches these communities.", cta: "Start a conversation" },
 ];
 
+export type PartnerLogo = { name: string; src: string };
+
+/** Institutions whose logos run in the partners band. Files live in /public/images/partners. */
+export const partnerLogos: PartnerLogo[] = [
+  { name: "International Institute of Tropical Agriculture", src: "/images/partners/iita.png" },
+  { name: "National Agricultural Land Development Authority", src: "/images/partners/nalda.png" },
+  { name: "Government of Ekiti State, Nigeria", src: "/images/partners/ekiti-state.png" },
+  { name: "Nigeria Sovereign Investment Authority", src: "/images/partners/nsia.png" },
+  { name: "Nestlé", src: "/images/partners/nestle.png" },
+  { name: "Cascador", src: "/images/partners/cascador.png" },
+];
+
 export const impact = [
   { value: "2,013", label: "Farmers registered", note: "Verified profiles on the platform", verified: true },
   { value: "155", label: "Active in the last 30 days", note: "Farmers who transacted or delivered", verified: true },
