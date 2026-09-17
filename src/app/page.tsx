@@ -5,6 +5,7 @@ import { CountUp } from "@/components/motion/count-up";
 import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 import { PageTransition } from "@/components/page-transition";
 import { ParallaxPhoto } from "@/components/parallax-photo";
+import { PartnerLogos } from "@/components/partner-logos";
 import { ProductCard } from "@/components/product-card";
 import { Ticker } from "@/components/ticker";
 import { ButtonLink } from "@/components/ui/button-link";
@@ -238,6 +239,8 @@ export default function HomePage() {
           ))}
         </RevealGroup>
       </section>
+
+      <PartnerLogos />
     </PageTransition>
   );
 }

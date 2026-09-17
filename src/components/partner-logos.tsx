@@ -31,6 +31,8 @@ export function PartnerLogos() {
                   alt={partner.name}
                   fill
                   sizes="(min-width: 1024px) 200px, (min-width: 640px) 28vw, 42vw"
+                  /* The optimizer rejects SVG unless dangerouslyAllowSVG is set; serve that one as-is. */
+                  unoptimized={partner.src.endsWith(".svg")}
                   className="object-contain object-center"
                 />
               </div>

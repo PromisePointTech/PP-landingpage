@@ -368,9 +368,9 @@ export type PartnerLogo = { name: string; src: string };
 export const partnerLogos: PartnerLogo[] = [
   { name: "International Institute of Tropical Agriculture", src: "/images/partners/iita.png" },
   { name: "National Agricultural Land Development Authority", src: "/images/partners/nalda.png" },
-  { name: "Government of Ekiti State, Nigeria", src: "/images/partners/ekiti-state.png" },
-  { name: "Nigeria Sovereign Investment Authority", src: "/images/partners/nsia.png" },
-  { name: "Nestlé", src: "/images/partners/nestle.png" },
+  { name: "Government of Ekiti State, Nigeria", src: "/images/partners/ekiti-state.jpg" },
+  { name: "Nigeria Sovereign Investment Authority", src: "/images/partners/nsia.webp" },
+  { name: "Nestlé", src: "/images/partners/nestle.svg" },
   { name: "Cascador", src: "/images/partners/cascador.png" },
 ];
 
