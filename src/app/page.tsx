@@ -45,13 +45,13 @@ export default function HomePage() {
               </span>
             </div>
             <h1 className="max-w-[800px] animate-rise font-display text-[clamp(44px,6.2vw,84px)] leading-[0.94] font-bold tracking-[-0.045em] text-balance [animation-delay:80ms]">
-              Grown in Ekiti.
+              Promise Point —
               <br />
-              <span className="highlight">Paid on any phone.</span>
+              <span className="highlight">Building African Capacity for Economic Empowerment</span>
             </h1>
             <p className="mt-[30px] mb-9 max-w-[520px] animate-rise text-lg leading-[1.58] text-moss [animation-delay:160ms] sm:text-[19.5px]">
-              We buy cassava from our own registered farmer network, process it at a certified facility, and pay
-              farmers into real bank accounts they reach by dialling a short code. No app. No data. No smartphone.
+              A woman-led vision transforming local resources into world-class products, sustainable livelihoods and
+              shared prosperity.
             </p>
             <div className="flex animate-rise flex-wrap items-center gap-3 [animation-delay:240ms]">
               <ButtonLink href="/agrifintech#register" arrow>

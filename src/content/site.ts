@@ -12,7 +12,7 @@ export const site = {
   shortLegalName: "Promise Point GTNL",
   url: "https://promisepointgtnl.com",
   description:
-    "A woman-led cassava business in Ikole, Ekiti State. We buy from our own registered farmer network, process at an FSSC 6.0V certified facility, and pay farmers into real bank accounts they reach by dialling a short code.",
+    "A woman-led vision transforming local resources into world-class products, sustainable livelihoods and shared prosperity. A cassava business in Ikole, Ekiti State, buying from our own registered farmer network and processing at an FSSC 6.0V certified facility.",
   ussdCode: "*347*319#",
   ussdHref: "tel:*347*319%23",
   phone: "07020479821",

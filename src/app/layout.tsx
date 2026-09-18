@@ -13,7 +13,7 @@ const jakarta = Plus_Jakarta_Sans({ variable: "--font-jakarta", subsets: ["latin
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Promise Point — Grown in Ekiti. Paid on any phone.",
+    default: "Promise Point — Building African Capacity for Economic Empowerment",
     template: "%s · Promise Point",
   },
   description: site.description,
